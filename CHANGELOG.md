@@ -5,6 +5,9 @@
 * Add support for tagged measurements (#123). **NOTE**: This version introduces breaking changes for legacy sources. Please contact support@librato.com to learn more.
 
 ### Version 1.4.2
+* Remove calls to `File#exists?` as that method is removed in ruby 3.2
+
+### Version 1.4.2
 * Bump librato-rack dependency to fix warns with ruby 2.4
 
 ### Version 1.4.1
